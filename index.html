@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>후디앤쇼츠</title>
+    <link rel="stylesheet"
+        href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <style>
+        .hero h1 {
+            font-size: 4.5rem;
+            /* 원하는 크기로 조절하세요. 예시는 2.5rem입니다. */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            /* 1.05배로 확대됩니다. 원하는 크기로 조절하세요. */
+            transition: transform 0.2s ease;
+            /* 변화에 애니메이션 효과를 줍니다. */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero bg-dark text-center py-5">
+        <h1 class="text-white">후디앤쇼츠</h1>
+        <h2 class="text-white">당신의 가치를 팝니다!</h2>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5525/5525355.png" class="card-img-top"
+                        alt="법률사무소 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">법률사무소 블로그</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">100만원</h6>
+                        <p class="card-text">법률사무소 블로그를 운영해드립니다. 전공자가 직접 관리해요</p>
+                        <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1223/1223145.png" class="card-img-top"
+                        alt="카페 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">나만 알기 아까운 카페</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">50만원</h6>
+                        <p class="card-text">숨겨진 카페를 홍보해드립니다! 장기간 방문을 통한 차별화 </p>
+                        <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank">자세히 보기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="data:image/png;base64,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"
+                        class="card-img-top" alt="식당 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">고수의 식당</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">40만원</h6>
+                        <p class="card-text">동네마다 숨어있는 고수를 널리 알려드립니다!</p>
+                        <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank">자세히 보기</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="학원 아이콘.png"
+                        class="card-img-top" alt="식당 이미지">
+                    <div class="card-body">
+                        <h5 class="card-title">특급학원</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">50만원</h6>
+                        <p class="card-text">입시전문가와 학생을 연결합니다</p>
+                        <a href="https://spartacodingclub.kr/" class="btn btn-primary" target="_blank">자세히 보기</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
